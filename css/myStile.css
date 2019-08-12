@@ -1,0 +1,5 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);/*crear las columnas de la grid 3 o las que os quieran */
+  grid-gap: 10px;
+}
