@@ -9,32 +9,48 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Fundacion Fuerse</title>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-    <img src="img/logo.ico" alt="" srcset="">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Clientes</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Otros</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown10">
-            <a class="dropdown-item" href="#">Mas</a>
-            <a class="dropdown-item" href="#">Mas1</a>
-            <a class="dropdown-item" href="#">Mas2</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+
+<header class="header">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <a class="navbar-brand" href="#">
+      <img src="./img/logofuerse.PNG" width="70" height="70" class="d-inline-block align-top" alt="">
+  </a>
+  <Strong class="navbar-brand" href="#" id="textos">Fuerse</Strong>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" id="change">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="change">
+        <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="change">
+        <a class="nav-link" href="#">Clientes <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active" id="change">
+        <a class="nav-link" href="#">Organización <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active dropdown" id="change">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown">
+          <a class="dropdown-item" href="#" id="change">Action</a>
+          <a class="dropdown-item" href="#" id="change">Another action</a>
+          <a class="dropdown-item" href="#" id="change">Something else here</a>
+        </div>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button class="btn my-2 my-sm-0" type="submit" id="button">Log-in</button>
+    </form>
+  </div>
+</nav>
+</header>
+
 </head>
 <body>
