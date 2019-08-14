@@ -1,3 +1,6 @@
+/*------------------*/
+/*Estilos Master*/
+/*Estilos del header*/
 #textos {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -19,4 +22,33 @@ nav {
 }
 #dropdown {
     background: linear-gradient(#FCF3CF , #F6CEE3 );
+}
+
+/*Estilos del footer*/
+
+.footer {
+    background: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer .social [class^="icon-"] {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    margin: 0 10px;
+}
+/*Estilos del cuerpo de la pagina principal index...*/
+
+#jumbotrom {
+    background-image: url("../img/finanzas.jpg");
+    background-size: cover;
 }

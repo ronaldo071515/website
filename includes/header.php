@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 <!-- boostrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/a3a8d3af24.js"></script>
     <title>Fundacion Fuerse</title>
-
 
 <header class="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,12 +38,12 @@
       </li>
       <li class="nav-item active dropdown" id="change">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
+          Mas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown">
-          <a class="dropdown-item" href="#" id="change">Action</a>
-          <a class="dropdown-item" href="#" id="change">Another action</a>
-          <a class="dropdown-item" href="#" id="change">Something else here</a>
+          <a class="dropdown-item" href="#" id="change">Servicios</a>
+          <a class="dropdown-item" href="#" id="change">Aliados</a>
+          <a class="dropdown-item" href="#" id="change">mas</a>
         </div>
     </ul>
     <form class="form-inline my-2 my-lg-0">
