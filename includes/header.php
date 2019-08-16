@@ -13,7 +13,6 @@
 
 <header class="header">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
   <a class="navbar-brand" href="#">
       <img src="./img/logofuerse.PNG" width="70" height="70" class="d-inline-block align-top" alt="">
   </a>
@@ -43,7 +42,7 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown">
           <a class="dropdown-item" href="#" id="change">Servicios</a>
           <a class="dropdown-item" href="#" id="change">Aliados</a>
-          <a class="dropdown-item" href="#" id="change">mas</a>
+          <a class="dropdown-item" href="#" id="change">acerca de</a>
         </div>
     </ul>
     <form class="form-inline my-2 my-lg-0">
