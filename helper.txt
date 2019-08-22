@@ -1,0 +1,16 @@
+SUBIR LOS CAMBIOS A GITHUB
+
+primero debemos hacer pull ya que posiblemente alguien subio cambios, asi:
+
+---------------------------
+git pull origin master
+---------------------------
+Ahora procedemos a agregar todo, recordar que debes estar en la ruta
+de la carpeta donde tenemos el proyecto, 
+por ejemplo la mia es c:/wamp/www/Web-- que es donde estoy desarrollando
+|------------------------------------------------------------------------|
+|																		 |
+|git add . --Agregar todo												 |
+|git commit -m "mi comentario sobre lo que hice"						 |
+|git push origin master ---Para subir y listo							 |
+|------------------------------------------------------------------------|
