@@ -1,10 +1,10 @@
 <?php include ("includes/header.php");?>
 
-<div class="jumbotrom jumbotrom-fluid">
-  <div class="container">
+<div class="jumbotrom jumbotrom" style="margin-top:10%;background-color:#fff" >
+  <div class="container" >
     <div class="row">
       <div class="col-md-4">
-      <h1>Historia</h1>
+      <h1 >Historia</h1>
         <p>La fundación Fuerse nace el día 11 de febrero del año 2012,
 mediante reunión de asamblea de constitución, en donde cuatro
 compañeros de universidad y trabajo se unieron en pro del

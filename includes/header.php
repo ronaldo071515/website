@@ -11,46 +11,78 @@
     <script src="https://kit.fontawesome.com/a3a8d3af24.js"></script>
     <title>Fundacion Fuerse</title>
 
-<header class="header">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-      <img src="./img/logofuerse.PNG" width="70" height="70" class="d-inline-block align-top" alt="">
-  </a>
-  <Strong class="navbar-brand" href="#" id="textos">Fuerse</Strong>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active" id="change">
-        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active" id="change">
-        <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active" id="change">
-        <a class="nav-link" href="#">Clientes <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active" id="change">
-        <a class="nav-link" href="#">Organización <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active dropdown" id="change">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Mas
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="dropdown">
-          <a class="dropdown-item" href="#" id="change">Servicios</a>
-          <a class="dropdown-item" href="#" id="change">Aliados</a>
-          <a class="dropdown-item" href="#" id="change">acerca de</a>
-        </div>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn my-2 my-sm-0" type="submit" id="button">Log-in</button>
-    </form>
-  </div>
-</nav>
-</header>
 
 </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+  <a class="navbar-brand" href="#"><img src="img/logofuerse.png"  width="70" height="70" alt="logo" id="logoindex"> <b>Fundación Fuerse</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active"><a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#"> Clientes</a></li>
+      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#"> Organizacion</a></li>
+      <li class="nav-item" style="margin-left:10px">
+      <div class="dropdown">
+      <a href="#" style="margin-left:15px" class="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mas</a><br>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item" type="button">Servicios</button>
+      <button class="dropdown-item" type="button">Aliados</button>
+      <button class="dropdown-item" type="button">Acerca de</button>
+    </div>
+    </div>
+    </ul>
+  </div>
+</nav>
+
+
+<!---------------- imagen del Header estatica------------------->
+<div class="bg"></div>
+<div class="jumbotron1">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Cuando el usuario se desplace hacia abajo 80 píxeles desde la parte superior del documento, cambie el tamaño del relleno de la barra de navegación y el tamaño de fuente del logotipo
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    document.getElementById("navbar").style.padding = "5px 2px";
+    document.getElementById("logo").style.fontSize = "5px";
+  } else {
+    document.getElementById("navbar").style.padding = "20px 2px";
+    document.getElementById("logo").style.fontSize = "10px";
+  }
+}
+</script>
+<script>
+var jumboHeight = $('.jumbotron1').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+
+$(window).scroll(function(e){
+    parallax();
+});
+</script>
 <body>
