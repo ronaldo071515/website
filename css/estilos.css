@@ -1,6 +1,11 @@
 /*------------------*/
 /*Estilos Master*/
 /*Estilos del header*/
+h1 {
+    text-align: center;
+    text-decoration: none;
+}
+
 #textos {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -9,6 +14,7 @@
 
 /*Estilos del footer*/
 .footer {
+    margin-top: -50px;
     background: #333;
 	color: #fff;
 	padding: 10px;
@@ -28,11 +34,12 @@
     line-height: 40px;
     margin: 0 10px;
 }
-/*Estilos del cuerpo de la pagina principal index...*/
+/*Estilos del cuerpo de la pagina principal index...    background-image: url("../img/jumbo.jpg");
+    background-size: cover;*/
 
 #jumbotrom {
-    background-image: url("../img/finanzas.jpg");
-    background-size: cover;
+    text-decoration-color: #0000;
+    margin-top: 100px;
 }
 
 /*Estilos par el menu*/
@@ -83,3 +90,8 @@
         display:none;
     }
  }
+
+ /*ESTILOS DE SERVICIOS*/
+#services {
+    margin-top: -100px;
+}
