@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a3a8d3af24.js"></script>
     <title>Fundacion Fuerse</title>
-
-
+    <link rel="shortcut icon" href="./img/fundacion.ico" type="image/x-icon">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
   <a class="navbar-brand" href="#"><img src="img/fundacion.png"  width="70" height="70" alt="logo" id="logoindex"> <b>Fundación Fuerse</b></a>
@@ -21,14 +20,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active"><a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
-      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#"> Clientes</a></li>
-      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#"> Organizacion</a></li>
+      <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#clientes"> Clientes</a></li>
       <li class="nav-item" style="margin-left:10px">
       <div class="dropdown">
       <a href="#" style="margin-left:15px" class="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mas</a><br>
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-      <button class="dropdown-item" type="button">Servicios</button>
+      <button class="dropdown-item" type="button" onclick="window.location='./view/servicios.php'">Productos y Servicios</button>
       <button class="dropdown-item" type="button">Aliados</button>
       <button class="dropdown-item" type="button">Acerca de</button>
     </div>
