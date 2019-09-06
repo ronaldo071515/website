@@ -1,8 +1,0 @@
-git pull origin master
-
------------------
-subir cambio
-git add . 
-git commit -m "change in index button log-in"
-git push origin master
---------------------

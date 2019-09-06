@@ -28,7 +28,7 @@
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
       <button class="dropdown-item" type="button" onclick="window.location='./view/servicios.php'">Productos y Servicios</button>
       <button class="dropdown-item" type="button">Aliados</button>
-      <button class="dropdown-item" type="button">Acerca de</button>
+      <button class="dropdown-item" type="button" onclick="window.location='./view/acercade.php'">Acerca de</button>
     </div>
     </div>
     </ul>

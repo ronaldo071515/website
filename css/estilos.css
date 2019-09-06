@@ -154,7 +154,7 @@ h1 {
 
 #jumboservice {
     margin-top: 100px;
-    background-image: url("../img/sercices.jpg");
+    background-image: url("../img/services.jpg");
     background-size: cover;
 }
 
@@ -170,4 +170,12 @@ h1 {
 #borderservice:hover {
     background-color: #FFFDFD;
     color: #333;
+    border: #333 double;
+}
+
+
+/* Estilos de acercader ;) */
+
+#arcade {
+    margin-top: 200px;
 }
