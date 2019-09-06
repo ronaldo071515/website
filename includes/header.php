@@ -33,6 +33,9 @@
     </div>
     </ul>
   </div>
+  <form class="form-inline my-2 my-lg-0" action="" target="_blank">
+      <button type="button" class="form-control mr-sm-2 btn-outline-secondary">Lo Gin</button>
+    </form>
 </nav>
 
 
