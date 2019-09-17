@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="./img/fundacion.ico" type="image/x-icon">
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-  <a class="navbar-brand" href="#"><img src="img/fundacion.png"  width="70" height="70" alt="logo" id="logoindex"> <b>Fundación Fuerse</b></a>
+  <a class="navbar-brand" href="./index.php"><img src="img/fundacion.png"  width="70" height="70" alt="logo" id="logoindex"> <b>Fundación Fuerse</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
