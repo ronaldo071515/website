@@ -19,10 +19,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active"><a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a></li>
-      <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
-      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#clientes"> Clientes</a></li>
-      <li class="nav-item" style="margin-left:10px">
+      <li class="nav-item active"><a class="nav-link" href="#">Inicio 
+        <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a>
+      </li>
+      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="#clientes"> Clientes</a>
+      </li>
+      <li class="nav-item" style="margin-left:10px"><a class="nav-link" href="./view/contac.php"> Contactanos</a>
+      </li>
+      <li class="nav-item" style="margin-left:10px"></li>
       <div class="dropdown">
       <a href="#" style="margin-left:15px" class="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mas</a><br>
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">

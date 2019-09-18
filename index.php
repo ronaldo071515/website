@@ -25,7 +25,7 @@
 
       <div class="row">
       <div class="col-lg-4 text-center">
-        <img class="rounded-circle" width="140" height="140" src="img/dane.jpg"><br><br>
+        <a href="https://www.facebook.com"><img class="rounded-circle" width="140" height="140" src="img/dane.jpg"></a><br><br>
         <h2 class="text-secondary">Dane</h2>
       </div>
       <div class="col-lg-4 text-center">
