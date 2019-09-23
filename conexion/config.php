@@ -2,5 +2,8 @@
     $user= "root";
     $host= "localhost";
     $pass= "";
-    $bd="bt_bloging";
+    $bd="fuerse";
+    $port = 5432;
+
+    $connection = mysqli_connect($host, $user, $pass, $bd);
 ?>
