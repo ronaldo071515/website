@@ -25,17 +25,17 @@
              <div class="col-md-4">
                 <h3>Agregar Articulo</h3>
                  <div class="card card-body my-3" >
-                     <form action="">
+                     <form action="save.php" method="POST" enctype='multipart/form-data'>
                         <div class="form-group">
-                        <input class="form-control" type="text" placeholder="Titulo">
-                         </div>
-                         <div class="form-group">
-                        <textarea class="form-control my-2" placeholder="Descripcion"></textarea>
-                         </div>
-                <div class="form-group">
-                <input class="form-control my-2" type="file">
-                </div>
-                <input type="submit" class="btn btn-outline-success btn-block" value="Guardar">
+                          <input class="form-control" type="text" placeholder="Titulo" name="title">
+                        </div>
+                        <div class="form-group">
+                          <textarea class="form-control my-2" placeholder="Descripcion" name="description"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control my-2" type="file" name="img">
+                        </div>
+                        <input type="submit" class="btn btn-outline-success btn-block" name="btnSave" value="Guardar">
                      </form>
                  </div>
              </div>
