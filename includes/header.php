@@ -39,34 +39,14 @@
     </div>
     </ul>
   </div>
-  <form class="form-inline my-2 my-lg-0" action="" target="_blank">
-      <button type="button" class="form-control mr-sm-2 btn-outline-secondary">Lo Gin</button>
+  <form class="form-inline my-2 my-lg-0">
+      <button type="button" class="form-control mr-sm-2 btn-outline-secondary" data-toggle="modal" data-target="#loginModal"> Lo Gin</button>
     </form>
 </nav>
-
-
 <!---------------- imagen del Header estatica------------------->
 <div class="bg"></div>
 <div class="jumbotron1">
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
 // Cuando el usuario se desplace hacia abajo 80 píxeles desde la parte superior del documento, cambie el tamaño del relleno de la barra de navegación y el tamaño de fuente del logotipo
 window.onscroll = function() {scrollFunction()};
@@ -93,3 +73,33 @@ $(window).scroll(function(e){
 });
 </script>
 <body>
+
+<!-- Modal Login -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelleby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> Ingresar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="./blog/blog.php" method="POST">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label text-muted"> Usuario</label>
+                        <input type="text" name="user" id="user" class="form-control" placeholder="Ususario" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label text-muted"> Contraseña</label>
+                        <input type="password" name="pass" id="pass" class="form-control" placeholder="Contraseña" required>
+                    </div>
+                    <div class="modal-footer">
+                    <a href="">¿Olvidaste tu contraseña?</a>
+                      <button type="submit" name="btnLog" class="btn btn-outline-success"> Ingresar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
