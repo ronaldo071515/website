@@ -10,30 +10,30 @@
     <div class="container marketing">
     <div class="row">
       <div class="col-lg-4 text-center">
-        <img class="rounded-circle" width="140" height="140" src="img/sena.jpg"><br><br>
+        <a href="http://www.sena.edu.co/" target="_blank"><img class="rounded-circle" width="140" height="140" src="img/sena.jpg"></a><br><br>
         <h2 class="text-secondary">Sena</h2>
       </div>
       <div class="col-lg-4 text-center">
-        <img class="rounded-circle" width="140" height="140" src="img/ufps.png"><br><br>
+      <a href="www.ufps.edu.co"target="_blank"><img class="rounded-circle" width="140" height="140" src="img/ufps.png"></a><br><br>
         <h2 class="text-secondary">UFPS</h2>
       </div>
       <div class="col-lg-4 text-center">
-        <img class="rounded-circle" width="140" height="140" src="img/camaraC.png"><br><br>
+      <a href="http://www.cccucuta.org.co/"target="_blank"><img class="rounded-circle" width="140" height="140" src="img/camaraC.png"></a><br><br>
         <h2 class="text-secondary">Camara de Comercio</h2>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
       <div class="row">
       <div class="col-lg-4 text-center">
-        <a href="https://www.facebook.com"><img class="rounded-circle" width="140" height="140" src="img/dane.jpg"></a><br><br>
+        <a href="https://www.dane.gov.co/"target="_blank"><img class="rounded-circle" width="140" height="140" src="img/dane.jpg"></a><br><br>
         <h2 class="text-secondary">Dane</h2>
       </div>
       <div class="col-lg-4 text-center">
-        <img class="rounded-circle" width="140" height="140" src="img/unipamplona.jpg"><br><br>
+      <a href="www.unipamplona.edu.co"target="_blank"><img class="rounded-circle" width="140" height="140" src="img/unipamplona.jpg"></a><br><br>
         <h2 class="text-secondary">Unipamplona</h2>
       </div>
       <div class="col-lg-4 text-center">
-        <img class="rounded-circle" width="140" height="140" src="img/ministerio.jpg"><br><br>
+      <a href="www.semcucuta.gov.co"target="_blank"><img class="rounded-circle" width="140" height="140" src="img/ministerio.jpg"></a><br><br>
         <h2 class="text-secondary">Ministerio de Educación</h2>
       </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->

@@ -33,7 +33,6 @@
       <a href="#" style="margin-left:15px" class="btn  dropdown-toggle"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mas</a><br>
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
       <button class="dropdown-item" type="button" onclick="window.location='./view/servicios.php'">Productos y Servicios</button>
-      <button class="dropdown-item" type="button">Aliados</button>
       <button class="dropdown-item" type="button" onclick="window.location='./view/acercade.php'">Acerca de</button>
     </div>
     </div>
