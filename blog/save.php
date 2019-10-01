@@ -12,10 +12,11 @@
             alert('llena los campos');
             </script>";
         }else {
-            $query = "INSERT INTO article (id,title, author, img, cuerpo) VALUES
-            (1, '$title', 'fuerse', '$imagen', '$description')";
+            $query = "INSERT INTO article (title, author, img, cuerpo) VALUES
+            ('$title', 'fuerse', '$imagen', '$description')";
    
            $result = mysqli_query($connection,$query);
+           var_dump($result);
            if(!$result){
                die ("query fatal");
            }else{
