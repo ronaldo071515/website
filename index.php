@@ -1,9 +1,8 @@
 <?php include ("includes/header.php");?>
   <?php include "view/quienessomos.php"; ?>
-  <div id="clientes"></div>
   <div class="jumbotron jumbotron-fluid" id="services">
     <div class="container">
-      <h1><i class="far fa-hand-point-down"></i>  CLIENTES</h1>
+      <h1><i class="far fa-hand-point-down" id="clientes"></i>  CLIENTES</h1>
     </div>
     <hr>
     <br><br>
