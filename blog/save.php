@@ -12,8 +12,8 @@
             alert('llena los campos');
             </script>";
         }else {
-            $query = "INSERT INTO article (title, author, img, cuerpo) VALUES
-            ('$title', 'fuerse', '$imagen', '$description')";
+            $query = "INSERT INTO article (title, author, img, cuerpo, fecha) VALUES
+            ('$title', 'fuerse', '$imagen', '$description', now())";
    
            $result = mysqli_query($connection,$query);
            var_dump($result);
@@ -21,6 +21,7 @@
                die ("query fatal");
            }else{
                echo "save successfully";
+               header("Location:blog.php");
            }
         }
 ?>

@@ -28,9 +28,9 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `article` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `title` varchar(20) DEFAULT NULL,
+  `title` varchar(100) DEFAULT NULL,
   `author` varchar(8) DEFAULT NULL,
-  `img` varchar(30) DEFAULT NULL,
+  `img` varchar(50) DEFAULT NULL,
   `cuerpo` varchar(2000) DEFAULT NULL,
   `fecha` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)

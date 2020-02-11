@@ -7,13 +7,13 @@
                  <div class="card card-body my-3" >
                      <form action="save.php" method="POST" enctype='multipart/form-data'>
                         <div class="form-group">
-                          <input class="form-control" type="text" placeholder="Titulo" name="title">
+                          <input class="form-control" type="text" placeholder="Titulo" name="title" required>
                         </div>
                         <div class="form-group">
-                          <textarea class="form-control my-2" placeholder="Descripcion" name="description"></textarea>
+                          <textarea class="form-control my-2" placeholder="Descripcion" name="description" required></textarea>
                         </div>
                         <div class="form-group">
-                          <input class="form-control my-2" type="file" name="img">
+                          <input class="form-control my-2" type="file" name="img" required>
                         </div>
                         <input type="submit" class="btn btn-outline-success btn-block" name="btnSave" value="Guardar">
                      </form>
@@ -24,7 +24,7 @@
     <thead>
         <tr>
             <th scope="col">Titulo</th>
-            <th scope="col">Descripcion</th>
+            <th scope="col">Autor</th>
             <th scope="col">Fecha</th>
             <th scope="col">Acciones</th>
         </tr>
@@ -40,7 +40,7 @@
               <td><?php echo $row['fecha']?></td>
               <td>
               <a href="edit.php?id=<?php echo $row['id']?>" class="btn btn-outline-success">EDITAR</a>
-              <a href="" class="btn btn-outline-danger">ELIMINAR</a>
+              <a href="delete.php?id=<?php echo $row['id']?>" class="btn btn-outline-danger">ELIMINAR</a>
             </td>
             </tr>
         <?php }

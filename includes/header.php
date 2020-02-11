@@ -84,7 +84,7 @@ $(window).scroll(function(e){
                 </button>
             </div>
             <div class="modal-body">
-                <form action="./blog/blog.php" method="POST">
+                <form action="./includes/login.php" method="POST">
                     <div class="form-group">
                         <label for="recipient-name" class="col-form-label text-muted"> Usuario</label>
                         <input type="text" name="user" id="user" class="form-control" placeholder="Ususario" required>
@@ -94,10 +94,41 @@ $(window).scroll(function(e){
                         <input type="password" name="pass" id="pass" class="form-control" placeholder="Contraseña" required>
                     </div>
                     <div class="modal-footer">
-                    <a href="">¿Olvidaste tu contraseña?</a>
-                      <button type="submit" name="btnLog" class="btn btn-outline-success"> Ingresar</button>
+                      <button type="submit" name="btnLog" class="form-control btn btn-outline-success"> Ingresar</button>
                     </div>
                 </form>
+                <button type="button" class="form-control mr-sm-2 btn-outline-secondary" data-toggle="modal" data-target="#recoverPass"> Recuperar Contraseña</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal recuperar la contraseña -->
+<div class="modal fade" id="recoverPass" tabindex="-1" role="dialog" aria-labelleby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"> Recuperar Contraseña</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="./includes/login.php" method="POST">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label text-muted"> Correo Electronico</label>
+                        <input type="mail" name="mail" id="mail" class="form-control" placeholder="Correo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label text-muted"> Nueva Contraseña</label>
+                        <input type="password" name="Newpass" id="newPass" class="form-control" placeholder="Contraseña" required>
+                    </div>
+                    <div class="modal-footer">
+                      <hr>
+                      <button type="button" class="form-control btn btn-outline-success"> Enviar</button>
+                      <button type="button" class="form-control btn btn-outline-danger"> Cancelar</button>
+                    </div>
+                </form>
+                <hr>
             </div>
         </div>
     </div>
