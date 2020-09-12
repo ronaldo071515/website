@@ -1,7 +1,5 @@
-<?php include("conexion/conexion.php");?>
 <?php include ("includes/header.php");?>
   <?php include ("view/quienessomos.php");?>
-  <?php include("blog/viewarticle.php");?>
   <div class="jumbotron jumbotron-fluid" id="services">
     <div class="container">
       <h1><i class="far fa-hand-point-down" id="clientes"></i>  CLIENTES</h1>

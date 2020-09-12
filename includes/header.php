@@ -74,7 +74,7 @@ $(window).scroll(function(e){
 <body>
 
 <!-- Modal Login -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelleby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelleby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -101,9 +101,9 @@ $(window).scroll(function(e){
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Modal recuperar la contraseña -->
-<div class="modal fade" id="recoverPass" tabindex="-1" role="dialog" aria-labelleby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="recoverPass" tabindex="-1" role="dialog" aria-labelleby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -132,4 +132,4 @@ $(window).scroll(function(e){
             </div>
         </div>
     </div>
-</div>
+</div> -->
